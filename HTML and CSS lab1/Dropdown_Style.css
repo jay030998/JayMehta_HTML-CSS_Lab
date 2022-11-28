@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+}
+header{
+    background-color: rgb(213, 0, 0);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#navigate{
+    position: static;
+    top: 0%;
+}
+.menu{
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.menu li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu li{
+    padding: 10px;
+    display: inline-block;
+}
+.menu li:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.menu li:nth-last-child(2):hover #Dropdown_1, .menu li:nth-last-child(1):hover #Dropdown_2{
+    display: block;
+}
+#Dropdown_1, #Dropdown_2{
+    position: absolute;
+    width: auto;
+    display: none;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+#Dropdown_1 li, #Dropdown_2 li{
+    display: block;
+}
+#Dropdown_1 li:hover, #Dropdown_2 li:hover{
+    background-color: gainsboro;    
+}
+#Dropdown_1 li a, #Dropdown_2 li a{
+    color: steelblue;
+    font-size: 15px;
+}
